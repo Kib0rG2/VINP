@@ -1,0 +1,25 @@
+.content{
+    display: block; /* Размещаем элементы в строку */
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    float: left;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 14px;
+}

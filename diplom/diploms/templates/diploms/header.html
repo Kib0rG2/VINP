@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../static/css/header.css">
+</head>
+
+<body>
+<header>
+    <nav>
+        <a href="{% url 'diploms:home' %}">VINP</a>
+        <a href="{% url 'diploms:home' %}">Home</a>
+        <a href="{% url 'diploms:events' %}">События</a>
+        <a href="{% url 'diploms:about_us' %}">О нас</a>
+        <a href="{% url 'diploms:katalog' %}">Каталог</a>
+    </nav>
+
+    <a id="spacer">ㅤ</a>
+
+    <input type="text" placeholder="Поиск...">
+</header>
+
+<div class="content">
+    {% block content %}{% endblock %}
+</div>
+</body>
+</html>
+

@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.content{
+    padding: 10px 20px; /* Добавляем отступы для красоты */
+}
+header {
+    display: flex; /* Размещаем элементы в строку */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    justify-content: normal; /* Равномерно распределяем пространство между элементами */
+    padding: 10px 20px; /* Добавляем отступы для красоты */
+}
+
+
+header nav{
+    height: min-content;
+}
+header a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #ffffff; /* Цвет текста ссылок */
+    margin-right: 1px; /* Добавляем отступ между ссылками */
+    background-color: #333333;
+    padding: 20px;
+}
+header a:hover {
+    background-color: #fff800;
+    color: #333333;
+}
+header #spacer{
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header input {
+    padding: 20px; /* Добавляем отступы для input */
+    border: 1px solid lightgray;
+}
+header input:focus {
+    border: 1px solid lightgray;
+    box-shadow: gray 4px 4px ;
+}

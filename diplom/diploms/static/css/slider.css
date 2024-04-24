@@ -1,0 +1,6 @@
+.swiper-container {
+    display: block; /* Размещаем элементы в строку */
+}
+.img{
+    height: 400px;
+}

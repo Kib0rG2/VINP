@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../../static/css/slider.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="../../../../static/images/ganteli.png" alt="Мое изображение" class="img">
+        </div>
+        <div class="swiper-slide">
+            <img src="../../../../static/images/ball.png" alt="Мое изображение" class="img">
+        </div>
+        <div class="swiper-slide">
+            <img src="../../../../static/images/shtanga.png" alt="Мое изображение" class="img">
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+</body>
+</html>

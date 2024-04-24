@@ -1,0 +1,17 @@
+.card {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    /*position: flex; !* футер будет закреплен внизу *!*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff; /* цвет фона для футера */
+    display: flex; /* flexbox для выравнивания карточек */
+    justify-content: space-around; /* равномерное распределение карточек по ширине */
+    padding: 20px; /* отступы внутри футера */
+}

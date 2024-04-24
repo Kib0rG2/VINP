@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="../../static/css/home.css">
+
+</head>
+
+<body>
+{% extends "diploms/header.html" %}
+
+{% block content %}
+<div class="content">
+    {%include "diploms/components/home/slider.html" %}
+    {% include "diploms/components/home/catalog.html" %}
+    {% include "diploms/footer.html" %}
+</div>
+{% endblock content %}
+
+</body>
+</html>
